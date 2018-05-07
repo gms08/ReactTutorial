@@ -1,12 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-class HelloWorld extends React.Component {
+class HelloUser extends React.Component {
   render() {
     return (
-      <div>Hello World!</div>
+      <div> Hello, {this.props.name}</div>
     )
   }
 }
 
-ReactDOM.render(<HelloWorld />, document.getElementById('root'));
+ReactDOM.render(<HelloUser name="Tyler" />, document.getElementById('root'));

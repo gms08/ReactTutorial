@@ -3,21 +3,24 @@
   "version": "1.0.0",
   "description": "ReactJS Tutorial",
   "main": "index.js",
-  "author": {
-    "name": "Gregory Sousa",
-    "email": "gms@thesousas.com",
-    "url": "https://github.com/gms08/"
-  },
+  "author": "Gregory Sousa <gms@thesousas.com> (https://github.com/gms08/)",
   "license": "MIT",
-  "keywords": ["react", "javascript", "tutorial"],
+  "keywords": [
+    "react",
+    "javascript",
+    "tutorial"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gms08/react-tutorial.git"
+    "url": "git+https://github.com/gms08/react-tutorial.git"
   },
   "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "^1.1.4"
+    "react-scripts": "^1.1.4",
+    "request": "^2.85.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -25,5 +28,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/gms08/react-tutorial/issues"
+  },
+  "homepage": "https://github.com/gms08/react-tutorial#readme"
 }
